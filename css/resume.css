@@ -101,7 +101,7 @@ html, body {
 
 footer {
     position: absolute;
-    top: 10.5rem;
+    top: 9.7rem;
     left: 50%;
     margin-left: -.2rem;
     width: .4rem;
@@ -289,7 +289,7 @@ footer .sec {
 .title {
     z-index: -1;
     position: absolute;
-    top: 7rem;
+    top: 6.5rem;
     width: 100%;
     height: 1rem;
     line-height: 1rem;
@@ -335,7 +335,7 @@ footer .sec {
 
 .point1 {
     position: absolute;
-    top: 8.5rem;
+    top: 8rem;
     left: 0;
     width: 100%;
     height: 0.1rem;
@@ -446,7 +446,7 @@ footer .sec {
 
 .point2 {
     position: absolute;
-    top: 9.5rem;
+    top: 9rem;
     left: 0;
     width: 100%;
     height: 0.1rem;
@@ -516,7 +516,7 @@ footer .sec {
 
 .job {
     position: absolute;
-    top: 8.6rem;
+    top: 8.1rem;
     left: 0;
     text-align: center;
     width: 100%;
@@ -1181,7 +1181,7 @@ footer .sec {
 }
 
 .pageFor .experience ul:nth-child(1) {
-    margin-top: 1.5rem;
+    margin-top: 1rem;
 }
 
 .pageFor .experience ul li {
@@ -1209,8 +1209,8 @@ footer .sec {
 .pageFor .experience .tb {
     opacity: 0;
     position: absolute;
-    top: 1.25rem;
-    left: 2rem;
+    top: 0.75rem;
+    left: 2.3rem;
     width: .04rem;
     height: 6rem;
     background-color: rgba(150, 150, 150, .8);
@@ -1468,7 +1468,7 @@ footer .sec {
     position: absolute;
     opacity: 0;
     left: 1.4rem;
-    top: 3rem;
+    top: 2.5rem;
     width: 3.6rem;
     height: 3.6rem;
 }
@@ -1480,18 +1480,18 @@ footer .sec {
 
 .pageFiv .bottom {
     position: relative;
-    margin-top: 5rem;
+    margin-top: 4.5rem;
     width: 100%;
     height: 5.4rem
 }
 
 .pageFiv .bottom li {
     position: absolute;
-    left: 1rem;
+    left: .8rem;
     opacity: 0;
-    width: 4.4rem;
-    height: .8rem;
-    line-height: .8rem;
+    width: 4.6rem;
+    height: .7rem;
+    line-height: .7rem;
     text-align: center;
     background-color: rgba(255, 255, 255, 0.129412);
     font-size: .3rem;
@@ -1500,15 +1500,15 @@ footer .sec {
 }
 
 .pageFiv .bottom li:nth-child(1) {
-    top: .3rem;
+    top: .2rem;
 }
 
 .pageFiv .bottom li:nth-child(2) {
-    top: 1.5rem;
+    top: 1.25rem;
 }
 
 .pageFiv .bottom li:nth-child(3) {
-    top: 2.7rem;
+    top: 2.25rem;
 }
 
 @keyframes code {
