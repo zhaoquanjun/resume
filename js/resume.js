@@ -3,7 +3,7 @@
     document.documentElement.style.fontSize = winW / desW * 100 + "px";
 }(640);
 
-
+console.log( document.documentElement.style.fontSize)
 //->给滑屏区域进行初始化设置
 ~function () {
     var step = 0, divList = null;

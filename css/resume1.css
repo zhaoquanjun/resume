@@ -101,7 +101,7 @@ html, body {
 
 footer {
     position: absolute;
-    top: 9.7rem;
+    top: 85%;
     left: 50%;
     margin-left: -.2rem;
     width: .4rem;
@@ -289,7 +289,7 @@ footer .sec {
 .title {
     z-index: -1;
     position: absolute;
-    top: 6.5rem;
+    top: 60%;
     width: 100%;
     height: 1rem;
     line-height: 1rem;
@@ -335,7 +335,7 @@ footer .sec {
 
 .point1 {
     position: absolute;
-    top: 8rem;
+    top: 70%;
     left: 0;
     width: 100%;
     height: 0.1rem;
@@ -395,18 +395,18 @@ footer .sec {
 }
 
 .point1 .fir {
-    top: .04rem;
-    left: .8rem;
+    top: 30%;
+    left: 12%;
 }
 
 .point1 .sec {
-    top: .04rem;
-    right: .8rem;
+    top: 30%;
+    right: 12%;
 }
 
 .point1 .line1 {
-    top: .08rem;
-    left: 0.8rem;
+    top: 60%;
+    left: 12%;
     width: 4.8rem;
     height: .04rem;
     background-color: lightcoral;
@@ -446,7 +446,7 @@ footer .sec {
 
 .point2 {
     position: absolute;
-    top: 9rem;
+    top: 80%;
     left: 0;
     width: 100%;
     height: 0.1rem;
@@ -476,8 +476,8 @@ footer .sec {
 }
 
 .point2 .line2 {
-    top: .08rem;
-    left: 0.8rem;
+    top: 80%;
+    left:12%;
     width: 4.8rem;
     height: .04rem;
     background-color: lightseagreen;
@@ -516,7 +516,7 @@ footer .sec {
 
 .job {
     position: absolute;
-    top: 8.1rem;
+    top: 71%;
     left: 0;
     text-align: center;
     width: 100%;
@@ -563,18 +563,17 @@ footer .sec {
 .pageSec header {
     position: relative;
     width: 100%;
-    height: 2rem;
+    height: 17%;
     background-color: rgba(53, 53, 55, .7);
 }
 
 .pageSec header .logo {
     z-index: -1;
     position: absolute;
-    top: .25rem;
+    top: 20%;
     left: 2rem;
     font-size: 1.2rem;
     color: #ccc;
-
 }
 
 #page2 header .logo {
@@ -612,7 +611,7 @@ footer .sec {
     position: absolute;
     z-index: -1;
     top: .55rem;
-    left: 2.8rem;
+    left: 42%;
     font-size: .5rem;
     color: rgb(74, 205, 146);
 
@@ -653,7 +652,7 @@ footer .sec {
     z-index: -1;
     position: absolute;
     left: 2.6rem;
-    top: 1.4rem;
+    top: 70%;
     width: 3.6rem;
     height: .02rem;
     background-color: rgb(74, 205, 146);
@@ -694,7 +693,7 @@ footer .sec {
     z-index: -1;
     position: absolute;
     top: 1.5rem;
-    left: 2.8rem;
+    left: 42%;
     font-size: .2rem;
     color: rgb(74, 205, 146);
 }
@@ -730,7 +729,7 @@ footer .sec {
 
 .pageSec .informationList {
     position: absolute;
-    top: 2rem;
+    top: 17%;
     left: 0;
     width: 100%;
     height: 8rem;
@@ -751,43 +750,43 @@ footer .sec {
 }
 
 #page2 .informationList li:nth-child(1) {
-    top: .45rem;
+    top: 5%;
     -webkit-animation: leftIn 1.8s .3s both;
     animation: leftIn 1.8s .3s both;
 }
 
 #page2 .informationList li:nth-child(2) {
-    top: 1.6rem;
+    top: 20%;
     -webkit-animation: leftIn 1.8s .4s both;
     animation: leftIn 1.8s .4s both;
 }
 
 #page2 .informationList li:nth-child(3) {
-    top: 2.75rem;
+    top: 35%;
     -webkit-animation: leftIn 1.8s .5s both;
     animation: leftIn 1.8s .5s both;
 }
 
 #page2 .informationList li:nth-child(4) {
-    top: 3.9rem;
+    top: 50%;
     -webkit-animation: leftIn 1.8s .6s both;
     animation: leftIn 1.8s .6s both;
 }
 
 #page2 .informationList li:nth-child(5) {
-    top: 5.05rem;
+    top: 65%;
     -webkit-animation: leftIn 1.8s .7s both;
     animation: leftIn 1.8s .7s both;
 }
 
 #page2 .informationList li:nth-child(6) {
-    top: 6.2rem;
+    top: 80%;
     -webkit-animation: leftIn 1.8s .8s both;
     animation: leftIn 1.8s .8s both;
 }
 
 #page2 .informationList li:nth-child(7) {
-    top: 7.35rem;
+    top: 95%;
     -webkit-animation: leftIn 1.8s .9s both;
     animation: leftIn 1.8s .9s both;
 }
@@ -824,14 +823,14 @@ footer .sec {
 .pageThr header {
     position: relative;
     width: 100%;
-    height: 2rem;
+    height: 17%;
     background-color: rgba(53, 53, 55, .7);
 }
 
 .pageThr header .logo {
     z-index: -1;
     position: absolute;
-    top: .25rem;
+    top: 20%;
     left: 2rem;
     font-size: 1.2rem;
     color: #ccc;
@@ -850,7 +849,7 @@ footer .sec {
     position: absolute;
     z-index: -1;
     top: .55rem;
-    left: 2.8rem;
+    left: 42%;
     font-size: .5rem;
     color: rgb(74, 205, 146);
 
@@ -865,7 +864,7 @@ footer .sec {
     z-index: -1;
     position: absolute;
     left: 2.6rem;
-    top: 1.4rem;
+    top: 70%;
     width: 3.6rem;
     height: .02rem;
     background-color: rgb(74, 205, 146);
@@ -880,7 +879,7 @@ footer .sec {
     z-index: -1;
     position: absolute;
     top: 1.5rem;
-    left: 2.8rem;
+    left: 42%;
     font-size: .2rem;
     color: rgb(74, 205, 146);
 }
@@ -892,7 +891,7 @@ footer .sec {
 
 .pageThr .skill {
     position: absolute;
-    top: 2rem;
+    top: 17%;
     left: 0;
     width: 100%;
     height: 8rem;
@@ -920,33 +919,28 @@ footer .sec {
 }
 
 .pageThr .skill ul li:nth-child(1) {
-    left: 1.3rem;
-    top: 0.7rem;
+    left: 20%;
+    top: 9%;
 }
 
 .pageThr .skill ul li:nth-child(2) {
-    right: 1.3rem;
-    top: 2rem;
+    right: 20%;
+    top: 24%;
 }
 
 .pageThr .skill ul li:nth-child(3) {
-    left: 1.3rem;
-    top: 3.3rem;
+    left: 20%;
+    top: 41%;
 }
 
 .pageThr .skill ul li:nth-child(4) {
-    right: 1.3rem;
-    top: 4.6rem;
+    right: 20%;
+    top: 56%;
 }
 
 .pageThr .skill ul li:nth-child(5) {
-    left: 1.3rem;
-    top: 5.9rem;
-}
-
-.pageThr .skill ul li:nth-child(6) {
-    right: 1.3rem;
-    top: 7.2rem;
+    left: 20%;
+    top: 71%;
 }
 
 .pageThr .skill span {
@@ -1102,18 +1096,17 @@ footer .sec {
 .pageFor header {
     position: relative;
     width: 100%;
-    height: 2rem;
+    height: 17%;
     background-color: rgba(53, 53, 55, .7);
 }
 
 .pageFor header .logo {
     z-index: -1;
     position: absolute;
-    top: .25rem;
+    top: 20%;
     left: 2rem;
     font-size: 1.2rem;
     color: #ccc;
-
 }
 
 #page4 header .logo {
@@ -1125,7 +1118,7 @@ footer .sec {
     position: absolute;
     z-index: -1;
     top: .55rem;
-    left: 2.8rem;
+    left: 42%;
     font-size: .5rem;
     color: rgb(74, 205, 146);
 
@@ -1140,12 +1133,11 @@ footer .sec {
     z-index: -1;
     position: absolute;
     left: 2.6rem;
-    top: 1.4rem;
+    top: 70%;
     width: 3.6rem;
     height: .02rem;
     background-color: rgb(74, 205, 146);
 }
-
 #page4 header .line {
     -webkit-animation: line 1.5s both;
     animation: line 1.5s both;
@@ -1155,7 +1147,7 @@ footer .sec {
     z-index: -1;
     position: absolute;
     top: 1.5rem;
-    left: 2.8rem;
+    left: 42%;
     font-size: .2rem;
     color: rgb(74, 205, 146);
 }
@@ -1167,7 +1159,7 @@ footer .sec {
 
 .pageFor .experience {
     position: absolute;
-    top: 2rem;
+    top: 17%;
     left: 0;
     width: 100%;
     height: 8rem;
@@ -1209,8 +1201,8 @@ footer .sec {
 .pageFor .experience .tb {
     opacity: 0;
     position: absolute;
-    top: 0.75rem;
-    left: 2.3rem;
+    top: 10%;
+    left: 35%;
     width: .04rem;
     height: 6rem;
     background-color: rgba(150, 150, 150, .8);
@@ -1401,18 +1393,17 @@ footer .sec {
 .pageFiv header {
     position: relative;
     width: 100%;
-    height: 2rem;
+    height: 17%;
     background-color: rgba(53, 53, 55, .7);
 }
 
 .pageFiv header .logo {
     z-index: -1;
     position: absolute;
-    top: .25rem;
+    top: 20%;
     left: 2rem;
     font-size: 1.2rem;
     color: #ccc;
-
 }
 
 #page5 header .logo {
@@ -1424,7 +1415,7 @@ footer .sec {
     position: absolute;
     z-index: -1;
     top: .55rem;
-    left: 2.8rem;
+    left: 42%;
     font-size: .5rem;
     color: rgb(74, 205, 146);
 
@@ -1439,7 +1430,7 @@ footer .sec {
     z-index: -1;
     position: absolute;
     left: 2.6rem;
-    top: 1.4rem;
+    top: 70%;
     width: 3.6rem;
     height: .02rem;
     background-color: rgb(74, 205, 146);
@@ -1454,7 +1445,7 @@ footer .sec {
     z-index: -1;
     position: absolute;
     top: 1.5rem;
-    left: 2.8rem;
+    left: 42%;
     font-size: .2rem;
     color: rgb(74, 205, 146);
 }
@@ -1467,8 +1458,8 @@ footer .sec {
 .pageFiv .code {
     position: absolute;
     opacity: 0;
-    left: 22%;
-    top: 22%;
+    left: 1.4rem;
+    top: 2.5rem;
     width: 3.6rem;
     height: 3.6rem;
 }
@@ -1487,7 +1478,7 @@ footer .sec {
 
 .pageFiv .bottom li {
     position: absolute;
-    left: .6rem;
+    left: .8rem;
     opacity: 0;
     width: 4.6rem;
     height: .7rem;
@@ -1500,15 +1491,15 @@ footer .sec {
 }
 
 .pageFiv .bottom li:nth-child(1) {
-    top: 4%;
+    top: .2rem;
 }
 
 .pageFiv .bottom li:nth-child(2) {
-    top: 23%;
+    top: 1.25rem;
 }
 
 .pageFiv .bottom li:nth-child(3) {
-    top: 32%;
+    top: 2.25rem;
 }
 
 @keyframes code {
