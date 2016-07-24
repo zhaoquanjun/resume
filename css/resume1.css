@@ -693,7 +693,7 @@ footer .sec {
 .pageSec header .about {
     z-index: -1;
     position: absolute;
-    top: 60%;
+    top: 62%;
     left: 42%;
     font-size: .2rem;
     color: rgb(74, 205, 146);
@@ -706,7 +706,7 @@ footer .sec {
 
 @keyframes about {
     0% {
-        top: 80%;
+        top: 70%;
         opacity: 0;
     }
     100% {
@@ -718,7 +718,7 @@ footer .sec {
 
 @-webkit-keyframes about {
     0% {
-        top: 80%;
+        top: 70%;
         opacity: 0;
     }
     100% {
