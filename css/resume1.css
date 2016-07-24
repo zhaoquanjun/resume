@@ -62,7 +62,7 @@ html, body {
 .audio {
     display: none;
     position: absolute;
-    top: 1%;
+    top: .2rem;
     right: .4rem;
     z-index: 100;
     width: .6rem;
