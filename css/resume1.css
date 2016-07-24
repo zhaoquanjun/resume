@@ -693,7 +693,7 @@ footer .sec {
 .pageSec header .about {
     z-index: -1;
     position: absolute;
-    top: 68%;
+    top: 65%;
     left: 42%;
     font-size: .2rem;
     color: rgb(74, 205, 146);
@@ -710,7 +710,7 @@ footer .sec {
         opacity: 0;
     }
     100% {
-        top: 68%;
+        top: 65%;
         opacity: 1;
         z-index: 1;
     }
