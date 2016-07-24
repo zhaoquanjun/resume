@@ -1197,7 +1197,7 @@ footer .sec {
     top: 10%;
     left: 35%;
     width: .04rem;
-    height: 6rem;
+    height: 4.2rem;
     background-color: rgba(150, 150, 150, .8);
 }
 
@@ -1277,7 +1277,7 @@ footer .sec {
         opacity: 0;
     }
     100% {
-        height: 6rem;
+        height: 4.2rem;
         opacity: 1;
     }
 }
@@ -1288,7 +1288,7 @@ footer .sec {
         opacity: 0;
     }
     100% {
-        height: 6rem;
+        height: 4.2rem;
         opacity: 1;
     }
 }
@@ -1453,13 +1453,13 @@ footer .sec {
     opacity: 0;
     left: 22%;
     top: 21%;
-    width: 3.6rem;
-    height: 3.6rem;
+    width: 55%;
+    height: 30%;
 }
 
 .pageFiv .code img {
-    width: 3.6rem;
-    height: 3.6rem;
+    width: 100%;
+    height: 100%;
 }
 
 .pageFiv .bottom {
@@ -1492,7 +1492,7 @@ footer .sec {
 }
 
 .pageFiv .bottom li:nth-child(3) {
-    top: 2.25rem;
+    top: 2.30rem;
 }
 
 @keyframes code {
@@ -1524,7 +1524,7 @@ footer .sec {
     }
     100% {
         opacity: 1;
-        left: 1rem;
+        left: .8rem;
     }
 }
 
@@ -1535,7 +1535,7 @@ footer .sec {
     }
     100% {
         opacity: 1;
-        left: 1rem;
+        left: .8rem;
     }
 }
 
