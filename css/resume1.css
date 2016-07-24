@@ -62,7 +62,7 @@ html, body {
 .audio {
     display: none;
     position: absolute;
-    top: .02rem;
+    top: 1%;
     right: .4rem;
     z-index: 100;
     width: .6rem;
@@ -652,7 +652,7 @@ footer .sec {
     z-index: -1;
     position: absolute;
     left: 50%;
-    top: 57%;
+    top: 59%;
     width: 3.6rem;
     height: .02rem;
     background-color: rgb(74, 205, 146);
@@ -711,7 +711,7 @@ footer .sec {
         opacity: 0;
     }
     100% {
-        top: 60%;
+        top: 62%;
         opacity: 1;
         z-index: 1;
     }
@@ -723,7 +723,7 @@ footer .sec {
         opacity: 0;
     }
     100% {
-        top: 60%;
+        top: 62%;
         opacity: 1;
         z-index: 1;
     }
@@ -862,7 +862,7 @@ footer .sec {
     z-index: -1;
     position: absolute;
     left: 50%;
-    top: 57%;
+    top: 59%;
     width: 3.6rem;
     height: .02rem;
     background-color: rgb(74, 205, 146);
@@ -876,7 +876,7 @@ footer .sec {
 .pageThr header .about {
     z-index: -1;
     position: absolute;
-    top: 60%;
+    top: 62%;
     left: 42%;
     font-size: .2rem;
     color: rgb(74, 205, 146);
@@ -1114,7 +1114,7 @@ footer .sec {
     z-index: -1;
     position: absolute;
     left: 50%;
-    top: 57%;
+    top: 59%;
     width: 3.6rem;
     height: .02rem;
     background-color: rgb(74, 205, 146);
@@ -1127,7 +1127,7 @@ footer .sec {
 .pageFor header .about {
     z-index: -1;
     position: absolute;
-    top: 60%;
+    top: 62%;
     left: 42%;
     font-size: .2rem;
     color: rgb(74, 205, 146);
@@ -1411,7 +1411,7 @@ footer .sec {
     z-index: -1;
     position: absolute;
     left: 50%;
-    top: 57%;
+    top: 59%;
     width: 3.6rem;
     height: .02rem;
     background-color: rgb(74, 205, 146);
@@ -1425,7 +1425,7 @@ footer .sec {
 .pageFiv header .about {
     z-index: -1;
     position: absolute;
-    top: 60%;
+    top: 62%;
     left: 42%;
     font-size: .2rem;
     color: rgb(74, 205, 146);
