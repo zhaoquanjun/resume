@@ -563,7 +563,7 @@ footer .sec {
 .pageSec header {
     position: relative;
     width: 100%;
-    height: 18%;
+    height: 16%;
     background-color: rgba(53, 53, 55, .7);
 }
 
@@ -693,7 +693,7 @@ footer .sec {
 .pageSec header .about {
     z-index: -1;
     position: absolute;
-    top: 65%;
+    top: 62%;
     left: 42%;
     font-size: .2rem;
     color: rgb(74, 205, 146);
@@ -710,7 +710,7 @@ footer .sec {
         opacity: 0;
     }
     100% {
-        top: 65%;
+        top: 62%;
         opacity: 1;
         z-index: 1;
     }
@@ -824,7 +824,7 @@ footer .sec {
 .pageThr header {
     position: relative;
     width: 100%;
-    height: 18%;
+    height: 16%;
     background-color: rgba(53, 53, 55, .7);
 }
 
@@ -1076,7 +1076,7 @@ footer .sec {
 .pageFor header {
     position: relative;
     width: 100%;
-    height:18%;
+    height:16%;
     background-color: rgba(53, 53, 55, .7);
 }
 
@@ -1373,7 +1373,7 @@ footer .sec {
 .pageFiv header {
     position: relative;
     width: 100%;
-    height: 18%;
+    height: 16%;
     background-color: rgba(53, 53, 55, .7);
 }
 
