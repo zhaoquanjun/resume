@@ -722,7 +722,7 @@ footer .sec {
         opacity: 0;
     }
     100% {
-        top: 62%;
+        top: 59%;
         opacity: 1;
         z-index: 1;
     }
