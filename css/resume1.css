@@ -628,17 +628,7 @@
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
+/* ---------------------------------------common----------------------------------- */
 .page-header{
     width: 100%;
     height: 4.58rem;
@@ -747,7 +737,6 @@
 }
 
 .audio {
-    display: none;
     position: absolute;
     top: 3%;
     right: 5%;
