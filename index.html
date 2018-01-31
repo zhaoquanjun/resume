@@ -9,123 +9,132 @@
     <meta name="apple-mobile-web-app-capable" content="yes"/>
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <title>resume</title>
-    <link rel="stylesheet" href="./css/swiper.min.css">
+    <script>
+        (function (desW) {
+            var winW = document.documentElement.clientWidth;
+            document.documentElement.style.fontSize = winW / desW * 100 + "px";
+        }(750));
+    </script>
+    <link rel="stylesheet" href="./css/swiper-4.1.0.min.css">
+    <link rel="stylesheet" href="./css/animate.min.css">
+    <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="./css/resume1.css">
 </head>
 <body>
-<section class="swiper-container">
+<div class="swiper-container">
     <div class="swiper-wrapper">
-        <div class="swiper-slide pageFir" trueId="page1">
-            <header class="logo">
-                <div><img src="./img/middle1.jpg" alt=""></div>
-                <div><img src="./img/middle2.jpg" alt=""></div>
-                <div><img src="./img/logo.gif" alt=""></div>
-            </header>
-            <section class="title">个人简历</section>
-            <section class="point1">
-                <span class="fir"></span>
-                <span class="sec"></span>
-                <span class="line1"></span>
-            </section>
-            <section class="job">求职web前端</section>
-            <section class="point2">
-                <span class="fir"></span>
-                <span class="sec"></span>
-                <span class="line2"></span>
-            </section>
+        <div class="swiper-slide pageFir">
+            <div class="cover-header">
+                <div class="cover-header-top">
+                    <div class="top-left-line ani" swiper-animate-effect="slideInRight" swiper-animate-delay="1.5s"><img src="./img/cover-page/cover_header_01.png" alt=""></div>
+                    <p class="top-words ani" swiper-animate-effect="fadeInUp" swiper-animate-delay="1s">个人简历</p>
+                </div>
+                <div class="cover-header-bottom">
+                    <p class="bottom-words ani" swiper-animate-effect="fadeInDown" swiper-animate-delay="1s"><span class="capture">R</span>ESUME</p>
+                    <div class="bottom-right-line ani"  swiper-animate-effect="slideInLeft" swiper-animate-delay="1.5s"><img src="./img/cover-page/cover_header_02.png" alt=""></div>
+                </div>
+            </div>
+            <div class="cover-slogan">
+                <div class="cover-slogan-top ani" swiper-animate-effect="bounceInRight"><img src="./img/cover-page/cover_slogan.png" alt=""></div>
+                <div class="cover-slogan-bottom ani" swiper-animate-effect="bounceInLeft"><img src="./img/cover-page/cover_slogan_02.png" alt=""></div>
+            </div>
         </div>
-        <div class="swiper-slide pageSec" trueId="page2">
-            <header>
-                <section class="logo">1</section>
-                <section class="information">个人信息</section>
-                <section class="line"></section>
-                <section class="about">ABOUT</section>
-            </header>
-            <section class="informationList">
-                <ul>
-                    <li>姓名：赵全军</li>
-                    <li>年龄：25</li>
-                    <li>学历：本科</li>
-                    <li>QQ：464980981</li>
-                    <li>电话：15910559620</li>
-                    <li>邮箱：zhaoquanjun0@qq.com</li>
-                </ul>
-            </section>
+        <div class="swiper-slide pageSec">
+            <div class="page-header ani" swiper-animate-effect="slideInDown"><img src="./img/common/page-header.png" alt=""></div>
+            <div class="page-content">
+                <div class="page-content-title">
+                    <div class="page-title-top">
+                        <p class="page-title-top-line ani" swiper-animate-effect="slideInRight" swiper-animate-delay="1s"><img src="./img/common/page-title-left.png" alt=""></p>
+                        <p class="page-title-top-words ani" swiper-animate-effect="fadeInUp" swiper-animate-delay=".5s">自我介绍</p>
+                    </div>
+                    <div class="page-title-bottom">
+                        <p class="page-title-bottom-words ani" swiper-animate-effect="fadeInDown" swiper-animate-delay=".5s">ABOUT ME</p>
+                        <p class="page-title-bottom-line ani"  swiper-animate-effect="slideInLeft" swiper-animate-delay="1s"><img src="./img/common/page-title-right.png" alt=""></p>
+                    </div>
+                </div>
+                <div class="page-content-container">
+                    <div class="page-content-left"></div>
+                    <div class="page-content-right"></div>
+                </div>
+            </div>
         </div>
-        <div class="swiper-slide pageThr" trueId="page3">
-            <header>
-                <section class="logo">2</section>
-                <section class="information">专业技能</section>
-                <section class="line"></section>
-                <section class="about">SKILL</section>
-            </header>
-            <section class="skill">
-                <ul>
-                    <li>HTML5</li>
-                    <li>CSS3</li>
-                    <li>jQuery</li>
-                    <li>NODE</li>
-                    <li>React</li>
-                </ul>
-                <span class="fir"></span>
-                <span class="sec"></span>
-                <span class="thr"></span>
-                <span class="for"></span>
-            </section>
+        <div class="swiper-slide pageThr">
+            <div class="page-header ani" swiper-animate-effect="slideInDown"><img src="./img/common/page-header.png" alt=""></div>
+            <div class="page-content-title">
+                <div class="page-title-top">
+                    <p class="page-title-top-line ani" swiper-animate-effect="slideInRight" swiper-animate-delay="1s"><img src="./img/common/page-title-left.png" alt=""></p>
+                    <p class="page-title-top-words ani" swiper-animate-effect="fadeInUp" swiper-animate-delay=".5s">工作经历</p>
+                </div>
+                <div class="page-title-bottom">
+                    <p class="page-title-bottom-words ani" swiper-animate-effect="fadeInDown" swiper-animate-delay=".5s">WORK EXP</p>
+                    <p class="page-title-bottom-line ani"  swiper-animate-effect="slideInLeft" swiper-animate-delay="1s"><img src="./img/common/page-title-right.png" alt=""></p>
+                </div>
+            </div>
         </div>
-        <div class="swiper-slide pageFor" trueId="page4">
-            <header>
-                <section class="logo">3</section>
-                <section class="information">工作经验</section>
-                <section class="line"></section>
-                <section class="about">EXPERIENCE</section>
-            </header>
-            <section class="experience">
-                <ul class="fir">
-                    <li> &nbsp 2013年 &nbsp 3月-12月</li>
-                    <li>海德教育</li>
-                </ul>
-                <ul class="sec">
-                    <li> &nbsp 2013年 &nbsp 2月-6月</li>
-                    <li>文都考研教育</li>
-                </ul>
-                <ul class="thr">
-                    <li> &nbsp 2014.9 &nbsp 2016.9</li>
-                    <li>亚信科技有限公司</li>
-                </ul>
-                <dl class="tb">
-                    <dd></dd>
-                    <dd></dd>
-                    <dd></dd>
-                </dl>
-            </section>
+        <div class="swiper-slide pageFor">
+            <div class="page-header ani" swiper-animate-effect="slideInDown"><img src="./img/common/page-header.png" alt=""></div>   
+            <div class="page-content-title">
+                <div class="page-title-top">
+                    <p class="page-title-top-line ani" swiper-animate-effect="slideInRight" swiper-animate-delay="1s"><img src="./img/common/page-title-left.png" alt=""></p>
+                    <p class="page-title-top-words ani" swiper-animate-effect="fadeInUp" swiper-animate-delay=".5s">过往项目</p>
+                </div>
+                <div class="page-title-bottom">
+                    <p class="page-title-bottom-words ani" swiper-animate-effect="fadeInDown" swiper-animate-delay=".5s">PROJECT-4</p>
+                    <p class="page-title-bottom-line ani"  swiper-animate-effect="slideInLeft" swiper-animate-delay="1s"><img src="./img/common/page-title-right.png" alt=""></p>
+                </div>
+            </div>
         </div>
-        <div class="swiper-slide pageFiv" trueId="page5">
-            <header>
-                <section class="logo">4</section>
-                <section class="information">联系我</section>
-                <section class="line"></section>
-                <section class="about">CONNECT ME</section>
-            </header>
-            <section class="code">
-                <img src="./img/erweima.png" alt="">
-            </section>
-            <ul class="bottom">
-                <li>电话：15910559620</li>
-                <li>QQ：464980981</li>
-                <li>邮箱：zhaoquanjun0@qq.com</li>
-            </ul>
+        <div class="swiper-slide pageFiv">
+            <div class="page-header ani" swiper-animate-effect="slideInDown"><img src="./img/common/page-header.png" alt=""></div>
+            <div class="page-content-title">
+                <div class="page-title-top">
+                    <p class="page-title-top-line ani" swiper-animate-effect="slideInRight" swiper-animate-delay="1s"><img src="./img/common/page-title-left.png" alt=""></p>
+                    <p class="page-title-top-words ani" swiper-animate-effect="fadeInUp" swiper-animate-delay=".5s">专业技能</p>
+                </div>
+                <div class="page-title-bottom">
+                    <p class="page-title-bottom-words ani" swiper-animate-effect="fadeInDown" swiper-animate-delay=".5s">MAIN SKILL</p>
+                    <p class="page-title-bottom-line ani"  swiper-animate-effect="slideInLeft" swiper-animate-delay="1s"><img src="./img/common/page-title-right.png" alt=""></p>
+                </div>
+            </div>
         </div>
     </div>
-</section>
-<section class="audio audioMove">
+</div>
+<div class="audio audioMove">
     <audio class="audioMp3" src="./audioFile/beyond.mp3" loop preload="none"/>
-</section>
-<footer>
-    <span class="fir"></span>
-    <span class="sec"></span>
-</footer>
+</div>
+<div class="footer">
+    <img src="./img/common/up.png" alt="">
+</div>
+<div class="progress" id="progress">
+    <span class="progress-bar"></span>
+</div>
 </body>
 </html>
-<script type="text/javascript" charset="utf-8" src="./js/swiper.min.js"></script>
+<script type="text/javascript" charset="utf-8" src="./js/swiper-4.1.0.min.js"></script>
+<script src="./js/swiper.animate1.0.2.min.js"></script>
 <script type="text/javascript" charset="UTF-8" src="./js/resume.js"></script>
+<script type="text/javascript">
+    window.onload = function() {
+        var mySwiper = new Swiper('.swiper-container',{
+            direction: 'vertical',
+            on: {
+                init: function() {
+                    swiperAnimateCache(this); //隐藏动画元素 
+                    swiperAnimate(this); //初始化完成开始动画
+                }, 
+                slideChangeTransitionEnd: function(){ 
+                    //每个slide切换结束时也运行当前slide动画
+                    swiperAnimate(this); 
+                    // progress 动态变化
+                    var progress = document.getElementById('progress');
+                    var barNum = this.activeIndex + 1;
+                    var barStr = '';
+                    for(var i = 0; i < barNum / 1; i++){
+                        barStr += '<span class="progress-bar"></span>'
+                    }
+                    progress.innerHTML = barStr;
+                } 
+            }
+        })
+    }
+</script>

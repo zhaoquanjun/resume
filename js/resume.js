@@ -1,39 +1,3 @@
-~function (desW) {
-    var winW = document.documentElement.clientWidth;
-    document.documentElement.style.fontSize = winW / desW * 100 + "px";
-}(640);
-
-console.log( document.documentElement.style.fontSize)
-//->给滑屏区域进行初始化设置
-~function () {
-    var step = 0, divList = null;
-    var swp = new Swiper(".swiper-container", {
-        loop: true,
-        direction: 'vertical',
-        onSlidePrevEnd: function () {
-            step--;
-            change();
-            if (step === 0) {
-                step = 5;
-            }
-        },
-        onSlideNextEnd: function () {
-            step++;
-            change();
-            if (step === 6) {
-                step = 1;
-            }
-        }
-    });
-
-
-    function change() {
-        divList = document.querySelectorAll(".swiper-slide");
-        [].forEach.call(divList, function (curDiv, index) {
-            curDiv.id = index === step ? curDiv.getAttribute("trueId") : null;
-        });
-    }
-}();
 
 
 //->音频的自动播放
