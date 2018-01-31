@@ -261,6 +261,95 @@
 .pageFor{
     background: url('../img/common/page-bg.png') no-repeat center center;
     background-size: 100% 100%;
+    position: relative;
+}
+
+.page4-item-fir-pit{
+    position: absolute;
+    top: 47%;
+    left: 13%;
+    width: 1.6rem;
+    height: 1.2rem;
+}
+
+.page4-item-fir-pit img{
+    width: 100%;
+    height: 100%;
+}
+
+.page4-item-fir-desc{
+    width: 4rem;
+    position: absolute;
+    top: 46.5%;
+    left: 41%;
+    color: #fff;
+    line-height: .4rem;
+    font-size: .25rem;
+}
+
+.firLink{
+    position: absolute;
+    top: 56.5%;
+    left: 17%;
+    font-size: .25rem;
+    width: 100%;
+}
+
+.firLink a{
+    color: yellowgreen
+}
+
+.page4-item-fir-devider{
+    width: 5.8rem;
+    height: .02rem;
+    background: #fff;
+    position: absolute;
+    top: 60%;
+    left: 13%;
+}
+
+.page4-item-sec-pit{
+    position: absolute;
+    top: 63%;
+    left: 70%;
+    width: 1.6rem;
+    height: 1.2rem;
+}
+
+.page4-item-sec-pit img{
+    width: 100%;
+    height: 100%;
+}
+
+.page4-item-sec-desc{
+    width: 4rem;
+    position: absolute;
+    top: 62.5%;
+    left: 13%;
+    color: #fff;
+    line-height: .4rem;
+    font-size: .25rem;
+}
+
+.secLink{
+    position: absolute;
+    top: 74%;
+    left: 70%;
+    font-size: .25rem;
+    width: 100%;
+}
+
+.secLink a{
+    color: yellowgreen
+}
+
+.page4-item-sec-devider{
+    width: 5.8rem;
+    height: .02rem;
+    background: #fff;
+    position: absolute;
+    top: 77%;
+    left: 13%;
 }
 
 .pageFiv{
