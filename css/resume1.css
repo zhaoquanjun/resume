@@ -289,7 +289,7 @@
 
 .firLink{
     position: absolute;
-    top: 56.5%;
+    top: 57%;
     left: 17%;
     font-size: .25rem;
     width: 100%;
@@ -333,8 +333,8 @@
 
 .secLink{
     position: absolute;
-    top: 74%;
-    left: 70%;
+    top: 73%;
+    left: 74%;
     font-size: .25rem;
     width: 100%;
 }
@@ -348,7 +348,7 @@
     height: .02rem;
     background: #fff;
     position: absolute;
-    top: 77%;
+    top: 76%;
     left: 13%;
 }
 
