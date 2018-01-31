@@ -131,12 +131,48 @@
 
 .page2-content-right-item{
     color: #fff;
-    font-size: .3rem;
+    font-size: .25rem;
 }
 
 .item-fir{
     position: absolute;
-    top: 50%;
+    top: 49.5%;
+    left: 30%;
+}
+
+.item-sec{
+    position: absolute;
+    top: 54.5%;
+    left: 30%;
+}
+
+.item-thr{
+    position: absolute;
+    top: 59.5%;
+    left: 30%;
+}
+
+.item-for{
+    position: absolute;
+    top: 64.5%;
+    left: 30%;
+}
+
+.item-fif{
+    position: absolute;
+    top: 69.5%;
+    left: 30%;
+}
+
+.item-six{
+    position: absolute;
+    top: 74.5%;
+    left: 30%;
+}
+
+.item-sev{
+    position: absolute;
+    top: 79.5%;
     left: 30%;
 }
 
