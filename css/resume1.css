@@ -65,6 +65,7 @@
     left: 21%;
 }
 
+/* ------------------------------------------------------------------------- */
 .pageSec{
     background: url('../img/common/page-bg.png') no-repeat center center;
     background-size: 100% 100%;
@@ -176,6 +177,7 @@
     left: 30%;
 }
 
+/* ---------------------------------------------------------------------------- */
 .pageThr{
     background: url('../img/common/page-bg.png') no-repeat center center;
     background-size: 100% 100%;
@@ -258,6 +260,7 @@
 
 }
 
+/* ------------------------------------------------------------------------------ */
 .pageFor{
     background: url('../img/common/page-bg.png') no-repeat center center;
     background-size: 100% 100%;
@@ -398,11 +401,189 @@
     left: 13%;
 }
 
-
+/* ------------------------------------------------------------------------ */
 .pageFiv{
     background: url('../img/common/page-bg.png') no-repeat center center;
     background-size: 100% 100%;
+    position: relative;
 }
+
+.page5-fir-left{
+    position: absolute;
+    width: .8rem;
+    height: .8rem;
+    top: 47%;
+    left: 13%;
+}
+
+.page5-fir-left img{
+    width: 100%;
+    height: 100%;
+}
+
+.page5-fir-mid{
+    position: absolute;
+    width: 3.5rem;
+    height: .3rem;
+    top: 49%;
+    left: 26%;
+}
+
+.page5-fir-mid img{
+    width: 100%;
+    height: 100%;
+}
+
+.page5-fir-right{
+    position: absolute;
+    top: 49%;
+    left: 78%;
+    font-size: .25rem;
+    color: #fff;
+}
+
+/* ---------------------------------- */
+.page5-sec-left{
+    position: absolute;
+    width: .8rem;
+    height: .8rem;
+    top: 55%;
+    left: 13%;
+}
+
+.page5-sec-left img{
+    width: 100%;
+    height: 100%;
+}
+
+.page5-sec-mid{
+    position: absolute;
+    width: 3.5rem;
+    height: .3rem;
+    top: 57%;
+    left: 26%;
+}
+
+.page5-sec-mid img{
+    width: 100%;
+    height: 100%;
+}
+
+.page5-sec-right{
+    position: absolute;
+    top: 57%;
+    left: 78%;
+    font-size: .25rem;
+    color: #fff;
+}
+
+/* -------------------------------------------------- */
+.page5-thr-left{
+    position: absolute;
+    width: .8rem;
+    height: .8rem;
+    top: 63%;
+    left: 13%;
+}
+
+.page5-thr-left img{
+    width: 100%;
+    height: 100%;
+}
+
+.page5-thr-mid{
+    position: absolute;
+    width: 3.5rem;
+    height: .3rem;
+    top: 65%;
+    left: 26%;
+}
+
+.page5-thr-mid img{
+    width: 100%;
+    height: 100%;
+}
+
+.page5-thr-right{
+    position: absolute;
+    top: 65%;
+    left: 78%;
+    font-size: .25rem;
+    color: #fff;
+}
+
+/* ------------------------------------- */
+.page5-for-left{
+    position: absolute;
+    width: .8rem;
+    height: .8rem;
+    top: 71%;
+    left: 13%;
+}
+
+.page5-for-left img{
+    width: 100%;
+    height: 100%;
+}
+
+.page5-for-mid{
+    position: absolute;
+    width: 3.5rem;
+    height: .3rem;
+    top: 73%;
+    left: 26%;
+}
+
+.page5-for-mid img{
+    width: 100%;
+    height: 100%;
+}
+
+.page5-for-right{
+    position: absolute;
+    top: 73%;
+    left: 78%;
+    font-size: .25rem;
+    color: #fff;
+}
+
+/* ------------------------------- */
+.page5-fif-left{
+    position: absolute;
+    width: .8rem;
+    height: .8rem;
+    top: 79%;
+    left: 13%;
+}
+
+.page5-fif-left img{
+    width: 100%;
+    height: 100%;
+}
+
+.page5-fif-mid{
+    position: absolute;
+    width: 3.5rem;
+    height: .3rem;
+    top: 81%;
+    left: 26%;
+}
+
+.page5-fif-mid img{
+    width: 100%;
+    height: 100%;
+}
+
+.page5-fif-right{
+    position: absolute;
+    top: 81%;
+    left: 78%;
+    font-size: .25rem;
+    color: #fff;
+}
+
+
+
 
 .pageSix{
     background: url('../img/common/page-bg.png') no-repeat center center;
