@@ -179,6 +179,83 @@
 .pageThr{
     background: url('../img/common/page-bg.png') no-repeat center center;
     background-size: 100% 100%;
+    position: relative;
+}
+
+.page3-content-fir-left{
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    width: .8rem;
+    height: .8rem;
+}
+
+.page3-content-fir-left img{
+    width: 100%;
+    height: 100%;
+}
+
+.page3-content-fir-right{
+    position: absolute;
+    top: 47%;
+    left: 32%;
+    color: #fff;
+    font-size: .25rem;
+    width: 4rem;
+
+}
+
+.page3-content-fir-title{
+    padding: .15rem 0;
+}
+
+.page3-content-fir-desc{
+    line-height: .4rem;
+}
+
+.page3-content-fir-devider{
+    width: 5.8rem;
+    height: .02rem;
+    background: #fff;
+    position: absolute;
+    top: 60%;
+    left: 13%;
+}
+
+.page3-content-sec-title{
+    padding: .15rem 0;
+}
+
+.page3-content-sec-left{
+    position: absolute;
+    top: 62%;
+    left: 15%;
+    width: 4rem;
+    font-size: .25rem;
+    color: #fff;
+}
+
+.page3-content-sec-right {
+    width: .8rem;
+    height: .8rem;
+    position: absolute;
+    top: 65%;
+    left: 75%;
+}
+
+.page3-content-sec-right img{
+    width: 100%;
+    height: 100%;
+}
+
+.page3-content-sec-devider{
+    width: 5.8rem;
+    height: .02rem;
+    background: #fff;
+    position: absolute;
+    top: 74%;
+    left: 13%;
+
 }
 
 .pageFor{
