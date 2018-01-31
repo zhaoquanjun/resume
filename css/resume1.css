@@ -308,6 +308,7 @@
     left: 13%;
 }
 
+/* ---------------------------------------------- */
 .page4-item-sec-pit{
     position: absolute;
     top: 63%;
@@ -351,6 +352,52 @@
     top: 76%;
     left: 13%;
 }
+
+/* ------------------------------------------------- */
+.page4-item-thr-pit{
+    position: absolute;
+    top: 79%;
+    left: 13%;
+    width: 1.6rem;
+    height: 1.2rem;
+}
+
+.page4-item-thr-pit img{
+    width: 100%;
+    height: 100%;
+}
+
+.page4-item-thr-desc{
+    width: 4rem;
+    position: absolute;
+    top: 78.5%;
+    left: 41%;
+    color: #fff;
+    line-height: .4rem;
+    font-size: .25rem;
+}
+
+.thrLink{
+    position: absolute;
+    top: 89%;
+    left: 17%;
+    font-size: .25rem;
+    width: 100%;
+}
+
+.thrLink a{
+    color: yellowgreen
+}
+
+.page4-item-thr-devider{
+    width: 5.8rem;
+    height: .02rem;
+    background: #fff;
+    position: absolute;
+    top: 92%;
+    left: 13%;
+}
+
 
 .pageFiv{
     background: url('../img/common/page-bg.png') no-repeat center center;
