@@ -71,7 +71,74 @@
     position: relative;
 }
 
+.page2-content-left-line{
+    width: .05rem;
+    height: 4rem;
+    background: red;
+    position: absolute;
+    top: 50%;
+    left: 25%;
+}
 
+.page2-content-left-point{
+    width: .2rem;
+    height: .2rem;
+    border-radius: 50%;
+    background: red;
+}
+
+.point-fir{
+    position: absolute;
+    top: 50%;
+    left: 24%;
+}
+
+.point-sec{
+    position: absolute;
+    top: 55%;
+    left: 24%;
+}
+
+.point-thr{
+    position: absolute;
+    top: 60%;
+    left: 24%;
+}
+
+.point-for{
+    position: absolute;
+    top: 65%;
+    left: 24%;
+}
+
+.point-fif{
+    position: absolute;
+    top: 70%;
+    left: 24%;
+}
+
+.point-six{
+    position: absolute;
+    top: 75%;
+    left: 24%;
+}
+
+.point-sev{
+    position: absolute;
+    top: 80%;
+    left: 24%;
+}
+
+.page2-content-right-item{
+    color: #fff;
+    font-size: .3rem;
+}
+
+.item-fir{
+    position: absolute;
+    top: 50%;
+    left: 30%;
+}
 
 .pageThr{
     background: url('../img/common/page-bg.png') no-repeat center center;
@@ -84,6 +151,11 @@
 }
 
 .pageFiv{
+    background: url('../img/common/page-bg.png') no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.pageSix{
     background: url('../img/common/page-bg.png') no-repeat center center;
     background-size: 100% 100%;
 }
@@ -153,7 +225,7 @@
 .progress-bar{
     display: block;
     float: left;
-    width: 1.5rem;
+    width: 1.25rem;
     height: .05rem;
     background: red;
 }
