@@ -774,6 +774,7 @@
 }
 
 .audio {
+    display: none;
     position: absolute;
     top: 3%;
     right: 5%;

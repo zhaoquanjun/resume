@@ -5,7 +5,7 @@
     var audio = document.getElementById('audioPlayer');
 
     audio.addEventListener('canplaythrough', function () {
-        alert(1)
+        audioBox.style.display = 'block';
     }, false)
 
     // 兼容ios自动播放
