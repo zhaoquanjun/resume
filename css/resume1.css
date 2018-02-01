@@ -714,6 +714,15 @@
     background: red;
 }
 
+.currPageNum {
+    position: absolute;
+    bottom: 2%;
+    right: 5%;
+    color: #fff;
+    font-size: .2rem;
+    z-index: 999;
+}
+
 .footer {
     position: absolute;
     bottom: 5%;

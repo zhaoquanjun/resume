@@ -23,9 +23,11 @@
 </head>
 
 <body>
+    <!-- loading mask -->
     <div class="loading-page" id="loading">
         <img class="loading-image" src="" alt="">
     </div>
+    <!-- swiper pages -->
     <div class="swiper-container">
         <div class="swiper-wrapper">
             <!-- cover page -->
@@ -289,6 +291,7 @@
             </div>
         </div>
     </div>
+    <!-- audio player -->
     <div class="audio audioMove" id="audioBox">
         <audio class="audioMp3" id="audioPlayer" loop preload="none">
             <source src="./audioFile/bgMusic.mp3" type="audio/mp3">
@@ -296,12 +299,15 @@
             <source src="./audioFile/bgMusic.wma" type="audio/wma">
         </audio>
     </div>
+    <!-- footer arrow -->
     <div class="footer">
         <img src="./img/common/up.png" alt="">
     </div>
+    <!-- progress bar -->
     <div class="progress" id="progress">
         <span class="progress-bar"></span>
     </div>
+    <div class="currPageNum" id="currPageNum">1/6</div>
 </body>
 
 </html>
@@ -323,6 +329,8 @@
                 slideChangeTransitionEnd: function () {
                     //每个slide切换结束时也运行当前slide动画
                     swiperAnimate(this);
+                    // 获取当前页码
+                    var pageNum = document.getElementById('currPageNum');
                     // progress 动态变化
                     var progress = document.getElementById('progress');
                     var barNum = this.activeIndex + 1;
@@ -331,6 +339,7 @@
                         barStr += '<span class="progress-bar"></span>'
                     }
                     progress.innerHTML = barStr;
+                    pageNum.innerHTML = barNum + '/6';
                 }
             }
         })
