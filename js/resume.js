@@ -4,7 +4,7 @@
     var audioBox = document.getElementById('audioBox');
     var audio = document.getElementById('audioPlayer');
 
-    audio.addEventListener('canplay', function () {
+    audio.addEventListener('canplaythrough', function () {
         alert(1)
     }, false)
 
