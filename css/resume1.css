@@ -15,7 +15,7 @@
     background-size: 100% 100%;
 }
 
-.cover-header-top .top-left-line{
+.cover-header-top .top-left-line {
     position: absolute;
     top: 6.5%;
     left: 35%;
@@ -23,7 +23,7 @@
     height: .5rem;
 }
 
-.cover-header-top .top-words{
+.cover-header-top .top-words {
     font-size: .36rem;
     color: #fff;
     position: absolute;
@@ -32,7 +32,7 @@
     height: 2rem;
 }
 
-.cover-header-bottom .bottom-words{
+.cover-header-bottom .bottom-words {
     font-size: .36rem;
     color: red;
     position: absolute;
@@ -41,11 +41,11 @@
     height: 1rem;
 }
 
-.cover-header-bottom .bottom-words .capture{
+.cover-header-bottom .bottom-words .capture {
     font-size: .48rem;
 }
 
-.cover-header-bottom .bottom-right-line{
+.cover-header-bottom .bottom-right-line {
     position: absolute;
     top: 11.5%;
     left: 59%;
@@ -53,26 +53,27 @@
     height: .5rem;
 }
 
-.cover-slogan .cover-slogan-top{
+.cover-slogan .cover-slogan-top {
     position: absolute;
     top: 20%;
     left: 19%;
 }
 
-.cover-slogan .cover-slogan-bottom{
+.cover-slogan .cover-slogan-bottom {
     position: absolute;
     top: 30%;
     left: 21%;
 }
 
 /* ------------------------------------------------------------------------- */
-.pageSec{
+
+.pageSec {
     background: url('../img/common/page-bg.png') no-repeat center center;
     background-size: 100% 100%;
     position: relative;
 }
 
-.page2-content-left-line{
+.page2-content-left-line {
     width: .05rem;
     height: 4rem;
     background: red;
@@ -81,110 +82,111 @@
     left: 25%;
 }
 
-.page2-content-left-point{
+.page2-content-left-point {
     width: .2rem;
     height: .2rem;
     border-radius: 50%;
     background: red;
 }
 
-.point-fir{
+.point-fir {
     position: absolute;
     top: 50%;
     left: 24%;
 }
 
-.point-sec{
+.point-sec {
     position: absolute;
     top: 55%;
     left: 24%;
 }
 
-.point-thr{
+.point-thr {
     position: absolute;
     top: 60%;
     left: 24%;
 }
 
-.point-for{
+.point-for {
     position: absolute;
     top: 65%;
     left: 24%;
 }
 
-.point-fif{
+.point-fif {
     position: absolute;
     top: 70%;
     left: 24%;
 }
 
-.point-six{
+.point-six {
     position: absolute;
     top: 75%;
     left: 24%;
 }
 
-.point-sev{
+.point-sev {
     position: absolute;
     top: 80%;
     left: 24%;
 }
 
-.page2-content-right-item{
+.page2-content-right-item {
     color: #fff;
     font-size: .25rem;
 }
 
-.item-fir{
+.item-fir {
     position: absolute;
     top: 49.5%;
     left: 30%;
 }
 
-.item-sec{
+.item-sec {
     position: absolute;
     top: 54.5%;
     left: 30%;
 }
 
-.item-thr{
+.item-thr {
     position: absolute;
     top: 59.5%;
     left: 30%;
 }
 
-.item-for{
+.item-for {
     position: absolute;
     top: 64.5%;
     left: 30%;
 }
 
-.item-fif{
+.item-fif {
     position: absolute;
     top: 69.5%;
     left: 30%;
 }
 
-.item-six{
+.item-six {
     position: absolute;
     top: 74.5%;
     left: 30%;
 }
 
-.item-sev{
+.item-sev {
     position: absolute;
     top: 79.5%;
     left: 30%;
 }
 
 /* ---------------------------------------------------------------------------- */
-.pageThr{
+
+.pageThr {
     background: url('../img/common/page-bg.png') no-repeat center center;
     background-size: 100% 100%;
     position: relative;
 }
 
-.page3-content-fir-left{
+.page3-content-fir-left {
     position: absolute;
     top: 50%;
     left: 15%;
@@ -192,30 +194,29 @@
     height: .8rem;
 }
 
-.page3-content-fir-left img{
+.page3-content-fir-left img {
     width: 100%;
     height: 100%;
 }
 
-.page3-content-fir-right{
+.page3-content-fir-right {
     position: absolute;
     top: 47%;
     left: 32%;
     color: #fff;
     font-size: .25rem;
     width: 4rem;
-
 }
 
-.page3-content-fir-title{
+.page3-content-fir-title {
     padding: .15rem 0;
 }
 
-.page3-content-fir-desc{
+.page3-content-fir-desc {
     line-height: .4rem;
 }
 
-.page3-content-fir-devider{
+.page3-content-fir-devider {
     width: 5.8rem;
     height: .02rem;
     background: #fff;
@@ -224,11 +225,11 @@
     left: 13%;
 }
 
-.page3-content-sec-title{
+.page3-content-sec-title {
     padding: .15rem 0;
 }
 
-.page3-content-sec-left{
+.page3-content-sec-left {
     position: absolute;
     top: 62%;
     left: 15%;
@@ -245,29 +246,29 @@
     left: 75%;
 }
 
-.page3-content-sec-right img{
+.page3-content-sec-right img {
     width: 100%;
     height: 100%;
 }
 
-.page3-content-sec-devider{
+.page3-content-sec-devider {
     width: 5.8rem;
     height: .02rem;
     background: #fff;
     position: absolute;
     top: 75%;
     left: 13%;
-
 }
 
 /* ------------------------------------------------------------------------------ */
-.pageFor{
+
+.pageFor {
     background: url('../img/common/page-bg.png') no-repeat center center;
     background-size: 100% 100%;
     position: relative;
 }
 
-.page4-item-fir-pit{
+.page4-item-fir-pit {
     position: absolute;
     top: 47%;
     left: 13%;
@@ -275,12 +276,12 @@
     height: 1.2rem;
 }
 
-.page4-item-fir-pit img{
+.page4-item-fir-pit img {
     width: 100%;
     height: 100%;
 }
 
-.page4-item-fir-desc{
+.page4-item-fir-desc {
     width: 4rem;
     position: absolute;
     top: 46.5%;
@@ -290,7 +291,7 @@
     font-size: .25rem;
 }
 
-.firLink{
+.firLink {
     position: absolute;
     top: 57%;
     left: 17%;
@@ -298,11 +299,11 @@
     width: 100%;
 }
 
-.firLink a{
+.firLink a {
     color: yellowgreen
 }
 
-.page4-item-fir-devider{
+.page4-item-fir-devider {
     width: 5.8rem;
     height: .02rem;
     background: #fff;
@@ -312,20 +313,21 @@
 }
 
 /* ---------------------------------------------- */
-.page4-item-sec-pit{
+
+.page4-item-sec-pit {
     position: absolute;
     top: 63%;
-    left: 70%;
-    width: 1.6rem;
+    left: 76.5%;
+    width: .7rem;
     height: 1.2rem;
 }
 
-.page4-item-sec-pit img{
+.page4-item-sec-pit img {
     width: 100%;
     height: 100%;
 }
 
-.page4-item-sec-desc{
+.page4-item-sec-desc {
     width: 4rem;
     position: absolute;
     top: 62.5%;
@@ -335,7 +337,7 @@
     font-size: .25rem;
 }
 
-.secLink{
+.secLink {
     position: absolute;
     top: 73%;
     left: 74%;
@@ -343,11 +345,11 @@
     width: 100%;
 }
 
-.secLink a{
+.secLink a {
     color: yellowgreen
 }
 
-.page4-item-sec-devider{
+.page4-item-sec-devider {
     width: 5.8rem;
     height: .02rem;
     background: #fff;
@@ -357,7 +359,8 @@
 }
 
 /* ------------------------------------------------- */
-.page4-item-thr-pit{
+
+.page4-item-thr-pit {
     position: absolute;
     top: 79%;
     left: 13%;
@@ -365,12 +368,12 @@
     height: 1.2rem;
 }
 
-.page4-item-thr-pit img{
+.page4-item-thr-pit img {
     width: 100%;
     height: 100%;
 }
 
-.page4-item-thr-desc{
+.page4-item-thr-desc {
     width: 4rem;
     position: absolute;
     top: 78.5%;
@@ -380,7 +383,7 @@
     font-size: .25rem;
 }
 
-.thrLink{
+.thrLink {
     position: absolute;
     top: 89%;
     left: 17%;
@@ -388,11 +391,11 @@
     width: 100%;
 }
 
-.thrLink a{
+.thrLink a {
     color: yellowgreen
 }
 
-.page4-item-thr-devider{
+.page4-item-thr-devider {
     width: 5.8rem;
     height: .02rem;
     background: #fff;
@@ -402,13 +405,14 @@
 }
 
 /* ------------------------------------------------------------------------ */
-.pageFiv{
+
+.pageFiv {
     background: url('../img/common/page-bg.png') no-repeat center center;
     background-size: 100% 100%;
     position: relative;
 }
 
-.page5-fir-left{
+.page5-fir-left {
     position: absolute;
     width: .8rem;
     height: .8rem;
@@ -416,12 +420,12 @@
     left: 13%;
 }
 
-.page5-fir-left img{
+.page5-fir-left img {
     width: 100%;
     height: 100%;
 }
 
-.page5-fir-mid{
+.page5-fir-mid {
     position: absolute;
     width: 3.5rem;
     height: .3rem;
@@ -429,12 +433,12 @@
     left: 26%;
 }
 
-.page5-fir-mid img{
+.page5-fir-mid img {
     width: 100%;
     height: 100%;
 }
 
-.page5-fir-right{
+.page5-fir-right {
     position: absolute;
     top: 49%;
     left: 78%;
@@ -443,7 +447,8 @@
 }
 
 /* ---------------------------------- */
-.page5-sec-left{
+
+.page5-sec-left {
     position: absolute;
     width: .8rem;
     height: .8rem;
@@ -451,12 +456,12 @@
     left: 13%;
 }
 
-.page5-sec-left img{
+.page5-sec-left img {
     width: 100%;
     height: 100%;
 }
 
-.page5-sec-mid{
+.page5-sec-mid {
     position: absolute;
     width: 3.5rem;
     height: .3rem;
@@ -464,12 +469,12 @@
     left: 26%;
 }
 
-.page5-sec-mid img{
+.page5-sec-mid img {
     width: 100%;
     height: 100%;
 }
 
-.page5-sec-right{
+.page5-sec-right {
     position: absolute;
     top: 57%;
     left: 78%;
@@ -478,7 +483,8 @@
 }
 
 /* -------------------------------------------------- */
-.page5-thr-left{
+
+.page5-thr-left {
     position: absolute;
     width: .8rem;
     height: .8rem;
@@ -486,12 +492,12 @@
     left: 13%;
 }
 
-.page5-thr-left img{
+.page5-thr-left img {
     width: 100%;
     height: 100%;
 }
 
-.page5-thr-mid{
+.page5-thr-mid {
     position: absolute;
     width: 3.5rem;
     height: .3rem;
@@ -499,12 +505,12 @@
     left: 26%;
 }
 
-.page5-thr-mid img{
+.page5-thr-mid img {
     width: 100%;
     height: 100%;
 }
 
-.page5-thr-right{
+.page5-thr-right {
     position: absolute;
     top: 65%;
     left: 78%;
@@ -513,7 +519,8 @@
 }
 
 /* ------------------------------------- */
-.page5-for-left{
+
+.page5-for-left {
     position: absolute;
     width: .8rem;
     height: .8rem;
@@ -521,12 +528,12 @@
     left: 13%;
 }
 
-.page5-for-left img{
+.page5-for-left img {
     width: 100%;
     height: 100%;
 }
 
-.page5-for-mid{
+.page5-for-mid {
     position: absolute;
     width: 3.5rem;
     height: .3rem;
@@ -534,12 +541,12 @@
     left: 26%;
 }
 
-.page5-for-mid img{
+.page5-for-mid img {
     width: 100%;
     height: 100%;
 }
 
-.page5-for-right{
+.page5-for-right {
     position: absolute;
     top: 73%;
     left: 78%;
@@ -548,7 +555,8 @@
 }
 
 /* ------------------------------- */
-.page5-fif-left{
+
+.page5-fif-left {
     position: absolute;
     width: .8rem;
     height: .8rem;
@@ -556,12 +564,12 @@
     left: 13%;
 }
 
-.page5-fif-left img{
+.page5-fif-left img {
     width: 100%;
     height: 100%;
 }
 
-.page5-fif-mid{
+.page5-fif-mid {
     position: absolute;
     width: 3.5rem;
     height: .3rem;
@@ -569,12 +577,12 @@
     left: 26%;
 }
 
-.page5-fif-mid img{
+.page5-fif-mid img {
     width: 100%;
     height: 100%;
 }
 
-.page5-fif-right{
+.page5-fif-right {
     position: absolute;
     top: 81%;
     left: 78%;
@@ -583,13 +591,14 @@
 }
 
 /* ----------------------------------------------------------------- */
-.pageSix{
+
+.pageSix {
     background: url('../img/common/page-bg.png') no-repeat center center;
     background-size: 100% 100%;
     position: relative;
 }
 
-.code-container{
+.code-container {
     width: 3rem;
     height: 3rem;
     position: absolute;
@@ -598,12 +607,12 @@
     margin-left: -1.5rem;
 }
 
-.code-container img{
+.code-container img {
     width: 100%;
     height: 100%;
 }
 
-.tip{
+.tip {
     position: absolute;
     top: 72%;
     width: 5rem;
@@ -615,7 +624,7 @@
     color: #fff;
 }
 
-.message{
+.message {
     position: absolute;
     top: 78%;
     width: 7rem;
@@ -627,26 +636,26 @@
     color: red;
 }
 
-
 /* ---------------------------------------common----------------------------------- */
-.page-header{
+
+.page-header {
     width: 100%;
     height: 4.58rem;
 }
 
-.page-header img{
+.page-header img {
     width: 100%;
     height: 100%;
 }
 
-.page-title-top-line{
+.page-title-top-line {
     position: absolute;
     top: 33%;
     left: 33%;
     width: 7rem;
 }
 
-.page-title-top-words{
+.page-title-top-words {
     position: absolute;
     top: 33%;
     left: 40%;
@@ -655,7 +664,7 @@
     font-size: .36rem;
 }
 
-.page-title-bottom-words{
+.page-title-bottom-words {
     position: absolute;
     top: 36.5%;
     left: 44%;
@@ -664,22 +673,21 @@
     font-size: .24rem;
 }
 
-.page-title-bottom-line{
+.page-title-bottom-line {
     position: absolute;
     top: 35%;
     left: 62%;
     width: 7rem;
 }
 
-
-.progress{
+.progress {
     position: fixed;
     bottom: 0;
     left: 0;
     z-index: 100;
 }
 
-.progress-bar{
+.progress-bar {
     display: block;
     float: left;
     width: 1.25rem;
@@ -702,15 +710,15 @@
     animation-fill-mode: both;
 }
 
-
-.footer img{
+.footer img {
     display: block;
     width: 100%;
     height: 100%;
 }
 
 @-webkit-keyframes arrowFlash {
-    0%, 100% {
+    0%,
+    100% {
         opacity: 1;
         -webkit-transform: translateY(0);
         transform: translateY(0);
@@ -723,7 +731,8 @@
 }
 
 @keyframes arrowFlash {
-    0%, 100% {
+    0%,
+    100% {
         opacity: 1;
         -webkit-transform: translateY(0);
         transform: translateY(0);
@@ -745,7 +754,6 @@
     height: .6rem;
     background: url("../audioFile/music.svg") no-repeat;
     background-size: 100% 100%;
-
 }
 
 .audioMove {
