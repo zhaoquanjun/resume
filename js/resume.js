@@ -8,16 +8,13 @@
     // 兼容ios自动播放
     audioAutoPlay(audio)
 
-    audio.addEventListener('canplaythrough', function () {
-        alert('can play')
-    }, false)
-
     // 点击播放、暂停
     audioBox.addEventListener('click', function () {
-        if (audio.pause) {
+        var status = audio.paused;
+        if (status) {
             _play()
         } else {
-            audio.paused()
+            audio.pause()
         }
     }, false)
 
