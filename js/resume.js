@@ -16,8 +16,10 @@
         var status = audio.paused;
         if (status) {
             _play()
+            addClass(audioBox, 'audioMove')
         } else {
             audio.pause()
+            removeClass(audioBox, 'audioMove')
         }
     }, false)
 
@@ -38,5 +40,33 @@
         document.addEventListener("touchstart", _play, false);
     }
 
+
+    // 工具
+    // 添加classname
+    function addClass(curEle, className) {
+        var ary = className.replace(/(^ +| +$)/g, "").split(/ +/g);
+        for (var i = 0, len = ary.length; i < len; i++) {
+            var curName = ary[i];
+            if (!hasClass(curEle, curName)) {
+                curEle.className += " " + curName;
+            }
+        }
+    }
+    // 删除classname
+    function removeClass(curEle, className) {
+        var ary = className.replace(/(^ +| +$)/g, "").split(/ +/g);
+        for (var i = 0, len = ary.length; i < len; i++) {
+            var curName = ary[i];
+            if (hasClass(curEle, curName)) {
+                var reg = new RegExp("(^| +)" + curName + "( +|$)", "g");
+                curEle.className = curEle.className.replace(reg, " ");
+            }
+        }
+    }
+    //->hasClass:验证当前元素中是否包含className这个样式类名
+    function hasClass(curEle, className) {
+        var reg = new RegExp("(^| +)" + className + "( +|$)");
+        return reg.test(curEle.className);
+    }
 
 }();
