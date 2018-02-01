@@ -4,6 +4,10 @@
     var audioBox = document.getElementById('audioBox');
     var audio = document.getElementById('audioPlayer');
 
+    audio.addEventListener('canplay', function () {
+        alert(1)
+    }, false)
+
     // 兼容ios自动播放
     audioAutoPlay(audio)
 
