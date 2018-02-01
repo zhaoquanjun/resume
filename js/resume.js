@@ -1,6 +1,5 @@
 //->音频的自动播放
 ~ function () {
-
     // box ----  audio
     var audioBox = document.getElementById('audioBox');
     var audio = document.getElementById('audioPlayer');

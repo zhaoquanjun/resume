@@ -23,6 +23,9 @@
 </head>
 
 <body>
+    <div class="loading-page" id="loading">
+        <img class="loading-image" src="" alt="">
+    </div>
     <div class="swiper-container">
         <div class="swiper-wrapper">
             <!-- cover page -->
@@ -172,7 +175,7 @@
                     <!-- ///////////////////////////////////////////////////// -->
                     <div class="page4-item-sec-desc ani" swiper-animate-effect="rotateInDownRight" swiper-animate-delay="3.4s">拼团项目，第一版基于两人成团，第二版支持多人成团，介入微信身份验证和微信支付款</div>
                     <div class="page4-item-sec-pit ani" swiper-animate-effect="rotateInDownLeft" swiper-animate-delay="3.4s">
-                        <img src="./img/item-page/item_03.jpg" alt="">
+                        <img src="./img/item-page/" alt="">
                     </div>
                     <p class="secLink ani" swiper-animate-effect="lightSpeedIn" swiper-animate-delay="3.7s">
                         <a href="http://www.jinxiujuhui.com/Mainpintuan/index?ptcid=1&openid=oFFTZ1BkhjjHChdo1kb0ORNtE7WM">点击跳转</a>
@@ -307,6 +310,9 @@
 <script type="text/javascript" charset="UTF-8" src="./js/resume.js"></script>
 <script type="text/javascript">
     window.onload = function () {
+
+        document.getElementById('loading').style.display = "none";
+
         var mySwiper = new Swiper('.swiper-container', {
             direction: 'vertical',
             on: {
